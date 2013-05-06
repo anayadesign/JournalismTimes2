@@ -59,6 +59,17 @@ p.question{ font-weight: bold;
 	margin-top: 2em;}
 p.answer{}
 
+.readmore {
+	float:right;
+	margin-top: .5em;
+	color: #3e737e;
+	text-align:right;
+	font-style:italic;
+	font-size: .75em;
+	text-decoration: none;}
+.readmore:hover {
+	text-decoration: underline;}
+
 ::selection {background-color: #3e737e; color: #FFF; text-shadow: 0px 1px #000;}
 /* ==== COLUMN CODE =======*/
 
@@ -141,19 +152,19 @@ header nav {
 					text-shadow:none;}
 
 ul.share {list-style-type: none;}
-ul.share li {margin-top: .5em;}
+	ul.share li {margin-top: .5em;}
 
 /* ================ END HEADER CODE ============ */
 
 /* ================ START CONTENT CODE ============ */
 .imageheading {margin:.5em;}
 
-#headlines a, 
-#midlines a, 
-#arcbottom a {
-	text-decoration: none; 
-	color: #000;}
-	
+	#headlines a, 
+ 	#midlines a, 
+	#arcbottom a {
+		text-decoration: none; }
+/*		color: #000;}
+*/	
 #headlines a:hover hgroup, 
 #midlines a:hover hgroup, 
 #arcbottom a:hover hgroup {
