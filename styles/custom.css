@@ -20,12 +20,12 @@ body {
 	clear:both;}
 .joellerow{
 	height: 300px; 
-	margin-top:16px; 
-	padding-top: 16px; 
+	margin-top:1em; 
+	padding-top: 1em; 
 	clear:both;}
 .videorow {
 	height: 276px; 
-	margin-bottom: 16px;}
+	margin-bottom: 1em;}
 
 a {	color: #3e737e;}
 a.currentpage {
@@ -40,8 +40,8 @@ a.read {
 a.read:hover {
 	text-decoration:underline;}
 	
-p {	margin-bottom: 16px; 
-	padding: 0px 8px; 
+p {	margin-bottom: 1em; 
+	padding: 0px .5em; 
 	line-height:1.4em;}
 p.read {
 	text-align:right;
@@ -51,33 +51,34 @@ p.read {
 p.read:hover {
 	text-decoration:underline;}
 p.quoted {
-	margin:0 0 0 48px;
+	margin:0 0 0 3em;
 	padding:0;
 	font-size: .75em;
 	color:#3E737E;}
-p.question{ font-weight: bold;}
+p.question{ font-weight: bold;
+	margin-top: 2em;}
 p.answer{}
 
 ::selection {background-color: #3e737e; color: #FFF; text-shadow: 0px 1px #000;}
 /* ==== COLUMN CODE =======*/
 
 .imagefill {height: 250px; background-color: #ccc;}
-.smallthumb {width: 115px; height: 115px; float:left; background-color:#ccc; margin-right: 8px;}
+.smallthumb {width: 115px; height: 115px; float:left; background-color:#ccc; margin-right: .5em;}
 .largethumb {width:155px; height:155px;}
 
 a hgroup {color:#000; text-decoration:none;}
 
 hgroup {
 	background-color: rgba(255, 255, 255, 0.8);
-	padding: 8px;
-	margin: 0 8px 8px 8px;}
+	padding: .5em;
+	margin: 0 .5em .5em .5em;}
 	
 article hgroup {
 	padding: 0px;
-	margin: 0 0 16px 0;}
+	margin: 0 0 1em 0;}
 #bottomlines hgroup {margin: 0; padding-top:0;}
 /* ==== ENDCOLUMN CODE =======*/
-.cols {padding: 0 8px;}
+.cols {padding: 0 .5em;}
 .one {width: 71px;}
 .two {width: 158px;}
 .three {width: 245px;}
@@ -100,7 +101,7 @@ article hgroup {
 	background-color: #FFF;}
 	
 #contentwrap {
-	margin-top: 8px;}
+	margin-top: .5em;}
 /* ====END WRAPS==== */
 
 /* ================ START HEADER CODE ============ */
@@ -140,12 +141,12 @@ header nav {
 					text-shadow:none;}
 
 ul.share {list-style-type: none;}
-ul.share li {margin-top: 8px;}
+ul.share li {margin-top: .5em;}
 
 /* ================ END HEADER CODE ============ */
 
 /* ================ START CONTENT CODE ============ */
-.imageheading {margin:8px;}
+.imageheading {margin:.5em;}
 
 #headlines a, 
 #midlines a, 
@@ -165,27 +166,27 @@ ul.share li {margin-top: 8px;}
 #mid2>a>div, 
 #mid3>a>div, 
 #bot1>a>div, 
-#bot2>a>div {padding-top: 8px;}
+#bot2>a>div {padding-top: .5em;}
 
 blockquote{
-	margin-left: 48px;
-	margin-bottom:16px;
+	margin-left: 3em;
+	margin-bottom:1em;
 	font-style: italic;
 	border-left: 1px solid #ccc;}
 	blockquote p{margin-bottom: 4px;}
 
-address{margin: 16px auto;}
+address{margin: 1em auto;}
 
 ul#giveback {
 	list-style-type: circle;}
 	ul#giveback li {
-		margin-left: 16px;
-		padding-left: 8px;}
+		margin-left: 1em;
+		padding-left: .5em;}
 ul#specialthanks {
 	list-style-type: circle;}
 	ul#specialthanks li {
-		margin-left: 16px;
-		padding-left: 8px;}
+		margin-left: 1em;
+		padding-left: .5em;}
 
 #orion{background-image: url(../images/deptnews/oriontile.jpg);
 		background-size: cover;
@@ -227,39 +228,39 @@ ul#specialthanks {
 #almendra {background-image: url(../images/Alumni/Alemendra_HeadShotCrop.jpg);
 		background-size: cover;
 		height: 324px;
-		/*padding-top: 8px;*/}
+		/*padding-top: .5em;*/}
 #almendrasmall {background-image: url(../images/Alumni/Alemendra_HeadShotCrop.jpg);
 		background-size: contain;}
 #kim {	background-image: url(../images/Alumni/JamieKim_Portrait.jpg);
 		background-size: cover;
 		height: 324px;
-		/*padding-top: 8px;*/}
+		/*padding-top: .5em;*/}
 #kimsmall {background-image: url(../images/Alumni/JamieKim_HeadshotCrop.jpg);
 		background-size: contain;}
 #fanucchi {background-image: url(../images/Alumni/FanucchiCrop.jpg);
 		background-size: cover;
 		height: 324px;
-		/*padding-top: 8px;*/}
+		/*padding-top: .5em;*/}
 #fanucchismall {background-image: url(../images/Alumni/FanucchiCrop.jpg);
 		background-size: contain;}
 
 #smith{background-image: url(../images/studentspot/EdieSmith.jpg);
 		background-size: cover;
 		height: 324px;
-		padding-top: 8px;}
+		padding-top: .5em;}
 #smithsmall{background-image: url(../images/studentspot/EdieSmith.jpg);
 		background-size: cover;}
 #gardner{background-image: url(../images/studentspot/kacey.jpg);
 		background-size: cover;
 		height: 324px;
-		padding-top: 8px;}
+		padding-top: .5em;}
 #gardnersmall{background-image: url(../images/studentspot/kaceytile.jpg);
 		background-size: cover;}
 /* ====ARCHIVES ===== */
 .archive {
 		background-size:cover;
 		height: 324px;
-		padding-top:8px;}
+		padding-top:.5em;}
 
 #fall11{background-image: url(../images/archive/jt11.jpg);}
 #fall10{background-image: url(../images/archive/jt10.jpg);}
@@ -289,7 +290,7 @@ ul#specialthanks {
 /* ================ START SIDEBAR CODE ============ */
 
 aside p {margin-top: 0px; margin-bottom: 0px;padding-top: 0px;}
-aside .tiles {clear:both; margin-bottom: 8px;}
+aside .tiles {clear:both; margin-bottom: .5em;}
 .tiles hgroup {height: 99px; margin-left: 115px; margin-bottom:0px;}
 
 hgroup a {color: #000; text-decoration: none;}
@@ -307,13 +308,13 @@ footer {
 #fmenu {
 	height: 125px;
 	background-color: #CCC;}	
-	#fmenu ul {padding: 8px 0 0 24px;}
-		#fmenu ul li {padding: 8px 0;}
+	#fmenu ul {padding: .5em 0 0 24px;}
+		#fmenu ul li {padding: .5em 0;}
 			#fmenu ul li a {color: #666;}
 
 #tgc, 
 #theorion, 
-#dpjpr {margin: 16px 16px 0 0; text-align:right;}
+#dpjpr {margin: 1em 1em 0 0; text-align:right;}
 
 #tgc a, 
 #theorion a, 
