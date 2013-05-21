@@ -71,6 +71,13 @@ p.answer{}
 	text-decoration: underline;}
 
 ::selection {background-color: #3e737e; color: #FFF; text-shadow: 0px 1px #000;}
+
+img.grayscale {
+    filter: url(../styles/filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+	 opacity: 0.5;
+}
 /* ==== COLUMN CODE =======*/
 
 .imagefill {height: 250px; background-color: #ccc;}
@@ -325,9 +332,15 @@ footer {
 #fmenu {
 	height: 125px;
 	background-color: #CCC;}	
-	#fmenu ul {padding: .5em 0 0 24px;}
-		#fmenu ul li {padding: .5em 0;}
-			#fmenu ul li a {color: #666;}
+	#fmenu ul {	height: 125px; 
+					width: 35%; 
+					padding: .5em 0 0 24px;}
+					#fmenu ul.double li {
+							width: 50%; 
+							padding: .5em 0; 
+							display:inline; 
+							float:left;}
+					#fmenu ul li a {color: #666;}
 
 #tgc, 
 #theorion, 
@@ -343,3 +356,6 @@ footer {
 	text-align: center;
 	padding: 10px 0;}
 /* ================ END FOOTER CODE ============ */
+.test {text-align: center;}
+.test ul {list-style:none;}
+.social li {display: inline-block;}
