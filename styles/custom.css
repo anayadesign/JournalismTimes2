@@ -58,7 +58,8 @@ p.quoted {
 p.question{ font-weight: bold;
 	margin-top: 2em;}
 p.answer{}
-
+.byline{
+	font-size: .83em;}
 .readmore {
 	float:right;
 	margin-top: .5em;
@@ -210,7 +211,12 @@ ul#specialthanks {
 	background-size: cover;
 	height: 324px;}
 .smalltile{
-	background-size:contain;}
+	background-size:contain;
+	width: 115px; 
+	height: 115px; 
+	float:left; 
+	background-color:#ccc; 
+	margin-right: .5em;}
 		
 #orion{background-image: url(../images/deptnews/oriontile.jpg);
 		background-size: cover;
@@ -332,15 +338,16 @@ footer {
 #fmenu {
 	height: 125px;
 	background-color: #CCC;}	
-	#fmenu ul {	height: 125px; 
-					width: 35%; 
-					padding: .5em 0 0 24px;}
-					#fmenu ul.double li {
+	ul.double {	/*height: 125px; 
+					width: 35%; */
+					padding: .5em 0 0 24px;
+					text-align:left;}
+					ul.double li {
 							width: 50%; 
 							padding: .5em 0; 
 							display:inline; 
 							float:left;}
-					#fmenu ul li a {color: #666;}
+					ul.double li a {color: #FFF; text-decoration: none; border-bottom: 1px #fff dotted;}
 
 #tgc, 
 #theorion, 
